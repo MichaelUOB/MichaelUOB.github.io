@@ -1,0 +1,35 @@
+body {
+	background-color: blue;
+}
+
+nav {
+	color: white;
+}
+
+.profile: {
+	color: white;
+}
+
+.profile-name {
+	margin-top: 20px;
+}
+
+.personal-profile{
+	margin-top: 20px;
+}
+
+.personal-skills{
+	margin-top: 20px;
+}
+
+.university{
+	margin-top: 20px;
+}
+
+.social-media{
+	margin-top: 20px;
+}
+
+.profile-pic{
+	margin-top: 20px;
+}

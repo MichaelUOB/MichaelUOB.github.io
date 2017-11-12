@@ -1,0 +1,33 @@
+body{
+	background-color: white; 
+} 
+
+li {
+	color: blue;
+}
+h1,h3{
+	color: black;
+}
+
+.welcome{
+	color: red;
+}
+.h1{
+	font: bold;
+}
+
+.division-one{
+	width: 500px;
+	background-color: red;
+	border: 5px solid black;
+	padding: 10px;
+	text-align: center;
+}
+
+.division-two{
+	width: 500px;
+	background-color: red;
+	border: 5px solid black;
+	margin-top: 40px;
+	float: right;
+}
