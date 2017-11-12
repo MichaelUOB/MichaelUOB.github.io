@@ -1,9 +1,11 @@
 body {
-	background-color: blue;
+	background-color: black;
+
 }
 
 nav {
 	color: white;
+	font-family: 'Pacifico', cursive;
 }
 
 .profile: {
@@ -38,3 +40,10 @@ nav {
 	margin-top: 20px;
 }
 
+.map-card{
+	margin-top: 20px;
+}
+
+.card-countries{
+	margin-top: 20px;
+}

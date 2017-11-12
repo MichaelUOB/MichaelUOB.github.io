@@ -6,6 +6,8 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
     	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    	<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet"> 
+    	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
  	</head>
 <body>
 
@@ -21,6 +23,35 @@
         	</ul>
         </div>
     </nav>
+
+    <div class="w3-content w3-display-container">
+    	<img class="myslides" src="http://www.seetorontonow.com/wp-content/uploads/2017/10/toronto-fall-sunset.jpg" style="width: 100%">
+    	<img class="myslides" src="https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5244714388001_5205235439001-vs.jpg?" style="width: 100%">
+
+    	<button class="w3-button w3-black w3-diplay-left" onlick="plusDivs (-1)">&#10094;</button>
+    	<button class="w3-button w3-black w3-diplay-right" onlick="plusDivs (-1)">&#10095;</button>
+    </div>
+
+    <script>
+	var slideIndex = 1;
+	showDivs(slideIndex);
+
+	function plusDivs(n) {
+  		showDivs(slideIndex += n);
+	}
+
+	function showDivs(n) {
+ 	var i;
+  	var x = document.getElementsByClassName("mySlides");
+  	if (n > x.length) {slideIndex = 1}    
+  	if (n < 1) {slideIndex = x.length}
+  	for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  	}
+  	x[slideIndex-1].style.display = "block";  
+	}
+	</script>
+
 
 	<div class="container">
 		<div class="row">
@@ -43,21 +74,45 @@
 				        	<a>
 				        		<i class="fa fa-twitter"></i>
 				        	</a>
+				        	<a>
+				        		<i class="fa fa-spotify"></i>
+				        	</a>
 				        </div>
 				<div class="card university">	
 	        		<div class="card-block">
+	        			<h3 class="card-title profile-name">Universities attended</h3>
 	        			<h4 class="information"></h4>
 	        			<p>
-	        			Birmingham
+	        			University of Nottingham
 	        			</p>
 	        			<p>
-	        			University of Nottingham
+	        			York University
 	        			</p>
 	        			<p>
 	        			University of Birmingham
 	        			</p>
 	    			</div>
     			</div>
+    			<div class="card-countries">
+    				<div class="card-block">
+    					<h3 class="card-title profile-name">Countries Visited</h3>
+    					<h4 class="information"></h4>
+    						<p>France</p>
+    						<p>Spain</p>
+    						<p>Germany</p>
+    						<p>Italy</p>
+    						<p>Czech Republic</p>
+    						<p>Malta</p>
+    						<p>Belgium</p>
+    						<p>Vatican City</p>
+    						<p>United States</p>
+    						<p>Canada</p>
+    						<p>Argentina</p>
+    						<p>Brazil</p>
+    				</div>
+    			</div>
+
+
     			<div class="card personal-skills">
 	    			<div class="card-block">
 	    				<h4 class="card-title">Skills</h4>
@@ -108,6 +163,14 @@
                 	<div class="card-block">
                 		<h4 class="card-title">Videos</h4>
                 		<iframe width="560" height="315" src="https://www.youtube.com/embed/z2DKysY7e_c" frameborder="0" allowfullscreen></iframe>
+
+                		<iframe width="560" height="315" src="https://www.youtube.com/embed/KHaOul8gVVc" frameborder="0" allowfullscreen></iframe>
+                	</div>
+                </div>
+                <div class="card map-card">
+                	<div class="card-block">
+                		<h4 class="card-title">Map</h4>
+                		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2404.5438861699217!2d-1.197346884733232!3d52.93863597989559!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4879c274ccd0ff2f%3A0xdfb0ab46a504ed52!2sUniversity+of+Nottingham!5e0!3m2!1sen!2suk!4v1510501400278" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                 	</div>
                 </div>
 			</div>
