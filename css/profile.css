@@ -3,7 +3,7 @@ body {
 
 }
 
-nav {
+nav  {
 	color: white;
 	font-family: 'Pacifico', cursive;
 }
@@ -47,3 +47,8 @@ nav {
 .card-countries{
 	margin-top: 20px;
 }
+
+.display-container{
+	margin-top: 20px;
+}
+
